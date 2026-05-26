@@ -13,7 +13,7 @@ print("5. Exit")
 print()
 
 print("Which of these operations do you want to do?")
-op = input(str("Enter Here: "))
+op = input("Enter Here: ")
 print(f"[DEBUG] op = {op}")
 print()
 
