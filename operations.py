@@ -10,8 +10,5 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    if b == 0:
-        print("[ERROR] Cannot divide a value by 0")
-    else:
-        return a / b
+    return a / b
 
