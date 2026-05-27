@@ -1,3 +1,5 @@
+import operations
+
 print("==CALCULATOR V1.1==")
 print("[INFO] Initializing Calculator")
 print()
