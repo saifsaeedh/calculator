@@ -24,25 +24,29 @@ num1 = int(input("Enter here: "))
 print(f"[DEBUG] num1 = {num1}")
 print()
 
-print("What is the second value? ")
-num2 = int(input("Enter here: "))
-if num2 == "0":
-    print("[ERROR] Cannot divide a number by ZERO")
-else:
-    print(f"[DEBUG] num2= {num2}")
-print()
+
+while True:
+    print("What is the second value? ")
+    num2 = int(input("Enter here: "))
+    if num2 == 0:
+        print("[ERROR] Cannot divide a number by ZERO, try again")
+        print()
+    else:
+        print(f"[DEBUG] num2= {num2}")
+        print()
+        break
 
 if op == "1":
-    result = num1 + num2
+    result = operations.add(num1, num2)
 
 elif op == "2":
-    result = num1 - num2
+    result = operations.subtract(num1, num2)
 
 elif op == "3":
-    result = num1 * num2
+    result = operations.multiply(num1, num2)
 
 elif op == "4":
-    result = num1 / num2
+    result = operations.divide(num1, num2)
 
 print(f"[DEBUG] Result = {result}")
 print(f"Result: {result}")
