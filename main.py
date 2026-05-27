@@ -1,6 +1,6 @@
 import operations
 
-print("==CALCULATOR V2.0==")
+print("==CALCULATOR V2.1==")
 print("[INFO] Initializing Calculator")
 print()
 print("This is a basic calculator that can take two values and do one of the following operations")
