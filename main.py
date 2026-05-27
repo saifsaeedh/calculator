@@ -20,14 +20,14 @@ print(f"[DEBUG] op = {op}")
 print()
 
 print("What is the first value?")
-num1 = int(input("Enter here: "))
+num1 = float(input("Enter here: "))
 print(f"[DEBUG] num1 = {num1}")
 print()
 
 
 while True:
     print("What is the second value? ")
-    num2 = int(input("Enter here: "))
+    num2 = float(input("Enter here: "))
     if num2 == 0:
         print("[ERROR] Cannot divide a number by ZERO, try again")
         print()
