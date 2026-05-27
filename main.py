@@ -32,7 +32,7 @@ while True:
         print("[ERROR] Cannot divide a number by ZERO, try again")
         print()
     else:
-        print(f"[DEBUG] num2= {num2}")
+        print(f"[DEBUG] num2 = {num2}")
         print()
         break
 
